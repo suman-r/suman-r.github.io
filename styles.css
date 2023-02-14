@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    display: grid;
+    place-items: center;
+    /* height: 100vh; */
+    background-color: #f0f0f0;
+    margin-top: 90px;
+  }
+  
+  #container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+  }
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #inputBox:focus {
+    outline: none;
+    border-bottom: 2px solid green !important;
+   
+    
+  }
+  
+  #inputBox:hover {
+    cursor: pointer;
+    border-bottom: 2px solid rgb(62, 201, 106) !important;
+  }
+
+  #inputBox {
+    width: 200px;
+        height: 25px;
+        border: none;
+        padding: 5px;
+        font-size: 16px;
+        outline: none;
+  }
+  
+  #submitButton {
+    height: 50px;
+    width: 120px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+    cursor: pointer;
+  }
+  
+  #myContent {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+    text-align: center;
+    font-size: 20px;
+  }
+  #text {
+    width: 500px;
+    height: 50px;
+    border: 1px solid gray;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
