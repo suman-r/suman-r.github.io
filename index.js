@@ -9,11 +9,11 @@
             url: "https://api.openai.com/v1/completions",
             headers: {
               "Content-Type": "application/json",
-              "Authorization": "Bearer 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"
+              "Authorization": "Bearer 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"
             },
             data: JSON.stringify({
               "model": model,
-              "prompt": $("#inputText").val(),
+              "prompt": $("#inputBox").val(),
               "max_tokens": 2000,
               "temperature": 0.5
             }),
