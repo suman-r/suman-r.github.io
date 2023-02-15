@@ -9,7 +9,7 @@
             url: "https://api.openai.com/v1/completions",
             headers: {
               "Content-Type": "application/json",
-              "Authorization": "Bearer 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"
+              "Authorization": "Bearer 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"
             },
             data: JSON.stringify({
               "model": model,
